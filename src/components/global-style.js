@@ -3,7 +3,6 @@ import { createGlobalStyle } from 'styled-components'
 export default createGlobalStyle`
     :root {
         font-size: 14px !important;
-        /* transition: font-size 0.2s; */
     }
 
     @media screen and (max-width: 480px) {
@@ -28,6 +27,11 @@ export default createGlobalStyle`
     p,
     li {
         cursor: default;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
     }
 
 `

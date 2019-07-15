@@ -11,15 +11,11 @@ const Header = styled.header`
   flex-flow: row nowrap;
   z-index: 9999;
   background-color: white;
-
-  @media (max-width: 768px) {
-    padding: 0 16px;
-  }
 `
 
 const Title = styled.h1`
   margin: 0;
-  padding: 16px 8px;
+  padding: 16px 0;
   cursor: pointer;
 
   @media (max-width: 768px) {

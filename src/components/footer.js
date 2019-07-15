@@ -4,6 +4,9 @@ import linkedin from '../images/In-Black-66px-R.png'
 import github from '../images/GitHub-Mark-64px.png'
 
 const Nav = styled.nav`
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
   background-color: white;
   margin: 0;
