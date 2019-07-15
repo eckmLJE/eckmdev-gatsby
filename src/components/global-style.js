@@ -2,13 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
     :root {
-        font-size: 14px !important;
-    }
-
-    @media screen and (max-width: 480px) {
-        :root {
-            font-size: 12px !important;
-        }
+        font-size: 16px;
     }
 
     * {
@@ -32,6 +26,10 @@ export default createGlobalStyle`
     a {
         text-decoration: none;
         color: black;
+    }
+
+    a:hover {
+        text-decoration: none;
     }
 
 `
