@@ -1,7 +1,7 @@
-import React from "react"
-import styled from "styled-components"
-import linkedin from "../images/In-Black-66px-R.png"
-import github from "../images/GitHub-Mark-64px.png"
+import React from 'react'
+import styled from 'styled-components'
+import linkedin from '../images/In-Black-66px-R.png'
+import github from '../images/GitHub-Mark-64px.png'
 
 const Nav = styled.nav`
   width: 100%;
