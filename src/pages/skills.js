@@ -1,6 +1,12 @@
 import React from 'react'
-import styled from 'styled-components'
+import SEO from '../components/seo'
 
-const Portfolio = styled.main``
+import Layout from '../components/layout'
+import Skills from '../components/skills'
 
-export default () => <Portfolio />
+export default () => (
+  <Layout>
+    <SEO title="Skills" />
+    <Skills />
+  </Layout>
+)
