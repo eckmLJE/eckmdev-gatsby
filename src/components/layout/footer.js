@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import linkedin from '../images/In-Black-66px-R.png'
-import github from '../images/GitHub-Mark-64px.png'
+
+import LinkedIn from '../images/linkedin'
+import GitHub from '../images/github'
 
 const Nav = styled.nav`
   position: fixed;
@@ -67,7 +68,7 @@ export default () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={linkedin} alt="linkedin" />
+          <LinkedIn />
         </a>
       </NavItem>
       <NavItem>
@@ -76,7 +77,7 @@ export default () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={github} alt="github" />
+          <GitHub />
         </a>
       </NavItem>
     </NavList>
