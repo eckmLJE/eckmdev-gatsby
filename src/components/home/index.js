@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { homeContent } from '../../content/summaries'
 import HomeSkateboardImg from '../images/home-skateboard'
 
-import Summary from '../summary'
+import Summary from '../styled/summary'
 
 const ImageContainer = styled.div`
   padding: 2rem 0;
