@@ -1,5 +1,5 @@
-import { Link } from 'gatsby'
 import React from 'react'
+import { Link } from 'gatsby'
 import styled, { css } from 'styled-components'
 
 const Header = styled.header`
@@ -61,21 +61,21 @@ const NavItem = styled.li`
   }
 `
 
-export default ({ sectionView, setSectionView }) => (
+export default () => (
   <Header>
-    <Title onClick={() => setSectionView(0)}>
+    <Title>
       <Link to="/">
         <strong>Lucas</strong> Eckman
       </Link>
     </Title>
     <Nav>
       <NavList>
-        <NavItem active={sectionView === 1}>
+        <NavItem>
           <Link to="/skills">
             <h3>Skills</h3>
           </Link>
         </NavItem>
-        <NavItem active={sectionView === 2}>
+        <NavItem>
           <Link to="/portfolio">
             <h3>Portfolio</h3>
           </Link>
